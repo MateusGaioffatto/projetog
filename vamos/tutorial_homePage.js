@@ -79,7 +79,7 @@ function tutorial_homePageBoxesPosicionamento(tutorialGifCount) {
   }
   else {
     navBarLogo.style.position = 'relative';
-    navBarLogo,style.left = '-80px';
+    navBarLogo.style.left = '-80px';
     console.log("Computer Mode!");
       switch (tutorialGifCount) {
       case 1:

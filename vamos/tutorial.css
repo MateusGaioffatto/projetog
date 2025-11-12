@@ -106,6 +106,7 @@
             position: relative;
             left: 30px;
             margin: 0;
+            font-size: 15px;
         }
         .tutorialBoxesCloseIcone i {   
             position: relative;
@@ -129,7 +130,7 @@
     .tutorialBoxes p {
         position: relative;
         top: 5%;
-        font-size: medium;
+        font-size: 92%;
     }
 
     .tutorialBoxesButtonsDiv {

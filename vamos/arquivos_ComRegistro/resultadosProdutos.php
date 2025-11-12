@@ -112,7 +112,6 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === 'off') {
           <input type="text" id="filtroLojasInput" placeholder="Digite o nome da loja" class="filtro-input">
           <div class="lojas-sugestoes" id="lojasSugestoes"></div>
         </div>
-        <div class="lojas-checkboxes" id="lojasCheckboxes"></div>
       </div>
       
       <!-- Filtro de Categorias -->

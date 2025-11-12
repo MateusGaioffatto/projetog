@@ -207,7 +207,7 @@ body.dark-mode .resultadosProdutosDiv {
 
     transition: var(--transition);
   }
-    body.dark-mode .resultadosProdutosA {
+    body.dark-mode .resultadosProdutosLi {
       background: #2d3748;
     }
     .resultadosProdutosLi:hover {
@@ -225,7 +225,7 @@ body.dark-mode .resultadosProdutosDiv {
         position: relative;
         top: 10%;
 
-        width: 50%;
+        /* width: 50%; */
         height: 50%;
 
         object-fit: contain;
@@ -346,7 +346,7 @@ body.dark-mode .filtro-item label {
 }
 
 .filtro-input, .filtro-select {
-  width: 100%;
+  width: 95%;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: var(--border-radius);
@@ -370,6 +370,8 @@ body.dark-mode .filtro-select {
 
 .filtro-lojas-input-container {
   position: relative;
+  display: grid;
+  width: 100%;
 }
 
 .lojas-sugestoes {
@@ -406,28 +408,6 @@ body.dark-mode .lojas-sugestoes div:hover {
   background: #4a5568;
 }
 
-.lojas-checkboxes {
-  margin-top: 10px;
-  max-height: 150px;
-  overflow-y: auto;
-  padding: 5px;
-  border: 1px solid #eee;
-  border-radius: var(--border-radius);
-}
-
-body.dark-mode .lojas-checkboxes {
-  border-color: #4a5568;
-}
-
-.loja-checkbox {
-  display: flex;
-  align-items: center;
-  margin-bottom: 5px;
-}
-
-.loja-checkbox input {
-  margin-right: 8px;
-}
 
 .filtro-botoes {
   display: flex;

@@ -138,11 +138,11 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === 'off') {
         </div>
       </div>
       
-      <div class="technologies fade-in-up">
+      <div class="technologies fade-in-up" style="text-align: center;">
         <h2 class="section-title">
           <i class="fas fa-code section-icon"></i> Tecnologias Utilizadas
         </h2>
-        <p>Para o desenvolvimento do SafeLinks, utilizamos as seguintes tecnologias:</p>
+        <p><u>Para o desenvolvimento do SafeLinks, utilizamos as seguintes tecnologias:</u></p>
         <div class="ferramentas">
         <ul>
           <li>HTML5 para estruturação do conteúdo</li>
